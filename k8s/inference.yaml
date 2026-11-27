@@ -10,4 +10,4 @@ spec:
       modelFormat:
         name: sklearn
         version: "1"
-      storageUri: s3://testhgpit/models/churn_model.pkl
+      storageUri: s3://testhgpit/models/2/churn_model.pkl
