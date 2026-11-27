@@ -6,5 +6,8 @@ metadata:
 spec:
   predictor:
     serviceAccountName: sa-s3-access
-    sklearn:
-      storageUri: s3://churn-model-bucket-cicd-abhi/models/churn_model.pkl
+    model:
+      modelFormat:
+        name: sklearn
+        version: "1"
+      storageUri: s3://testhgpit/models/churn_model.pkl
